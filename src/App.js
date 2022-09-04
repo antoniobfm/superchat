@@ -8,8 +8,6 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import { useRef, useState } from 'react';
 
-console.log(process.env)
-
 firebase.initializeApp({
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "superchat-80507.firebaseapp.com",
